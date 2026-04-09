@@ -52,7 +52,7 @@ Python 3.10+
 Wazuh (self-hosted or cloud) — Installation Guide
 Autoroute (for local LLM access) — Autoroute Docs
 Gemma model pulled via Autoroute
-💡 Inspiration & Context
+#💡 Inspiration & Context
 This project sits at the intersection of several real-world developments:
 
 XBOW (Horizon3 AI) — Autonomous penetration testing AI finding real CVEs in production systems
