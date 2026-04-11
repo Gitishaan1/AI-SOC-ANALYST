@@ -1,1 +1,24 @@
+# Environment & secrets
+.env
+*.env
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Ollama model files
+*.gguf
+*.bin
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
