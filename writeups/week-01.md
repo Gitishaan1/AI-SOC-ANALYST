@@ -24,6 +24,8 @@ Once Gemini was working, a new problem appeared — the model is a free-tier, he
 Relying on a single external free-tier model for a security tool is not acceptable. If the AI goes down, the analyst goes down.
 The fix: Designed and implemented a fallback system. The code tracks Gemini failures, and after 2 consecutive failures it automatically switches to the local Ollama model for that request. Ollama runs entirely on local hardware — no API, no rate limits, no downtime. The switch is seamless from the user's perspective.
 Lesson learned: In security tooling, resilience isn't optional. A system that works 80% of the time is not a system you can trust. Building the fallback this early means the rest of the project inherits that reliability from day one.
+
+
 What's Next — Part 2
 With the AI foundation stable, Part 2 moves into the actual SOC work:
 
