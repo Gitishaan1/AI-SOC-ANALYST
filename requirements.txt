@@ -1,0 +1,2 @@
+ollama installed on the host machine.
+API_KEY of the Gemini model used.
